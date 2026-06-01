@@ -9,7 +9,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "https://sizning-react-saytingiz.vercel.app",
+    "http://127.0.0.1:8000",
 ]
 
 app.add_middleware(
