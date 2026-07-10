@@ -9,8 +9,6 @@ import { Container, LeftCont, ButtonBor, Chiziq, } from './fatch';
 
 const Login = () =>{
 
-  const email = localStorage.getItem('email');
-  const ism = localStorage.getItem('ism');
 
 const navigate = useNavigate();
 
@@ -39,8 +37,6 @@ const navigate = useNavigate();
           style={{margin:"10px", cursor:"pointer"}} 
           onClick={() => navigate(1)}
           /> 
-          <h4 style={{marginLeft:"20px"}}>{ism}</h4>
-          <p style={{marginLeft:"20px", color:"gray"}}>{email}</p>
         </ButtonBor>
         
           <img className='Ras' src='https://xabar.uz/static/crop/1/4/920__95_1451606524.jpg' alt="Profile" /><br />

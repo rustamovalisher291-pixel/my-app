@@ -8,8 +8,6 @@ import { Container, LeftCont, ButtonBor, Chiziq } from './fatch';
 
 function Loyihalar() {
 
-  const email = localStorage.getItem('email');
-  const ism = localStorage.getItem('ism');
 
   const navigate = useNavigate();
 
@@ -38,8 +36,6 @@ function Loyihalar() {
           style={{margin:"10px", cursor:"pointer"}} 
           onClick={() => navigate(1)}
           />
-          <h4 style={{marginLeft:"20px"}}>{ism}</h4>
-          <p style={{marginLeft:"20px", color:"gray"}}>{email}</p>
         </ButtonBor>
           <img className='Ras' src='https://xabar.uz/static/crop/1/4/920__95_1451606524.jpg' alt="Profile" /><br />
           <h4 style={{marginLeft:"20px"}}>Rustamov Alisher</h4>

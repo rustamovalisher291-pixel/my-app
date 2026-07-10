@@ -44,6 +44,7 @@
     flex: 0 0 auto;
     transition: all 0.2s ease;
     border-radius: 50%;
+    margin-right: -5px;
 }
 .navbar__icon:hover{
     box-shadow: 0 0 5px 5px rgb(54, 251, 0);
@@ -187,15 +188,7 @@ h1{
     box-shadow: 0 0 4px 4px rgb(23, 179, 23);
     margin: -5.1px;
 }
-.navbar__profil__rasm {
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid rgb(23, 179, 23);
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
+
 .navbar__profil__rasm:hover {
     border-color: white;
 }

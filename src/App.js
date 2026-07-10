@@ -11,20 +11,17 @@ import { useState } from 'react';
 
 const App = () => {
   
-  const [kirdi, setKirdi] = useState(localStorage.getItem('kirdi') === 'true' );
   
   return (
     <div>
-      {!kirdi ? (<Email setKirdi={setKirdi} />):(
      <BrowserRouter>
      <Routes>
-      <Route path='/' element={<Navbar setKirdi={setKirdi}/>}>
+      <Route path='/' element={<Navbar/>}>
       <Route index element={<Login/>} />
       <Route path='/about' element={<Loyihalar/>}/>
       </Route>
      </Routes>
      </BrowserRouter>
-     )}
     </div>
   )
 }

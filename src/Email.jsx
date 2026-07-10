@@ -12,6 +12,8 @@ const Email = ({setKirdi}) => {
     const [qadam , setQadam] = useState(1)
     const [ism, setIsm] = useState('')
     const [xatoo, setXatoo] = useState('')
+    const [kirdi, setKirdiState] = useState(localStorage.getItem('kirdi') === 'true' );
+    
     const kirish = async () => {
     if (email === '') { 
         setXato('Email kiriting!')
