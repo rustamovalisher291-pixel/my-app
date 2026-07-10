@@ -20,10 +20,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-os.makedirs("rasmlar", exist_ok=True)
-app.mount("/rasmlar", StaticFiles(directory="rasmlar"), name="rasmlar")
-
-
 
 @app.get("/")
 def bosh():
