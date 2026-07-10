@@ -236,7 +236,17 @@ h1{
 .leftText{
     padding-left: 20px;
     padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
 }
 .Span{
     margin-left: 10px;
+}
+.tx{
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(38, 40, 38);
+    border-radius: 10px;
+    border: 1px solid rgb(23, 179, 23);
+    margin-right: 20px;
 }

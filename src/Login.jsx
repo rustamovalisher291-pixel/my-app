@@ -3,8 +3,9 @@ import "./Navbar.css"
 import styled from 'styled-components'
 import { useNavigate } from 'react-router-dom';
 import { FaArrowLeft, FaArrowRight, FaSync, FaStar, FaUser, FaPalette, FaEnvelope, 
-  FaTelegram, FaGithub, FaPhone } from 'react-icons/fa';
+  FaTelegram, FaGithub, FaPhone, FaArrowDown } from 'react-icons/fa';
 import { Container, LeftCont, ButtonBor, Chiziq, } from './fatch';
+import { Link } from 'react-router-dom';
 
 
 const Login = () =>{
@@ -45,28 +46,29 @@ const navigate = useNavigate();
           <h5 className='txt'>Dizayner</h5>
           <h5 className='txt'>Junior</h5>
           <Chiziq/>
-          <div className='leftText'>
+          <p className='tx'> Men bilan bog'lanish <FaArrowDown /> </p>
+          <Link className='leftText' to="https://mail.google.com/mail/u/0/?fs=1&to=rustamovalisher291@gmail.com&su=&body=&tf=cm" target="_blank" rel="noreferrer">
             <FaEnvelope title="Email" />
             <span className='Span'>
-              rustamov@gmail.com
+              Gmail
             </span>
-          </div>
-          <div className='leftText'>
+          </Link>
+          <Link className='leftText' to="https://t.me/Obito_2343" target="_blank" rel="noreferrer">
             <FaTelegram title="Telegram" />
-            <span className='Span'>
-              @rustamov_alisher
+            <span className='Span' >
+              Telegram
             </span>
-          </div>
-          <div className='leftText'>
+          </Link>
+          <Link className='leftText' to="https://github.com/rustamovalisher291-pixel" target="_blank" rel="noreferrer">
             <FaGithub title="GitHub" />
             <span className='Span'>
-              github.com/rustamov-alisher
+              GitHub
             </span>
-          </div>
+          </Link>
           <div className='leftText'>
             <FaPhone title="Telefon" />
             <span className='Span'>
-              +998 90 123 45 67
+              +998 50 503 8185
             </span>
           </div>
         </LeftCont>
