@@ -1,0 +1,23 @@
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './navbar';
+import Login from './Login';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Loyihalar from './loyihalar';
+
+const App = () => {
+  return (
+    <div>
+     <BrowserRouter>
+     <Routes>
+      <Route path='/' element={<Navbar/>}>
+      <Route index element={<Login/>} />
+      <Route path='/about' element={<Loyihalar/>}/>
+      </Route>
+     </Routes>
+     </BrowserRouter>
+    </div>
+  )
+}
+
+export default App
