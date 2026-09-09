@@ -142,6 +142,7 @@ h1 {
   margin-right: 20px;
 }
 
+/*--ishlamayapti--*/
 .buttons {
   width: 120px;
   height: 40px;
@@ -283,4 +284,3 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-
