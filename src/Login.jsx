@@ -48,8 +48,8 @@ const Login = () => {
           <h5 className='txt'>Dizayner</h5>
           <h5 className='txt'>Junior</h5>
           <Chiziq />
-            <p className='tx'> Men bilan bog'lanish <FaArrowDown /> </p>
-            <section className='sectio' id='boglanish'>
+          <p className='tx'> Men bilan bog'lanish <FaArrowDown /> </p>
+          <section className='sectio' id='boglanish'>
             <Link className='leftText' to="https://mail.google.com/mail/u/0/?fs=1&to=rustamovalisher291@gmail.com&su=&body=&tf=cm" target="_blank" rel="noreferrer">
               <FaEnvelope title="Email" />
               <span className='Span'>
@@ -84,9 +84,6 @@ const Login = () => {
         <h3>Mening vazifam web saytlarni yaratish</h3><br />
         <h3>Men web saytlarni yaratish orqali foydalanuvchilarga qulaylik yaratish uchun ishlayman</h3>
         <h3>Umid qilamanki sizga yoqadi :)</h3><br />
-        <a href='boglanish'>
-          <button className='buttons' type="button" >Bog'lanish</button>
-        </a>
 
         <h1>Asbob-uskunalar</h1>
         <div className='chiziq'> </div>
